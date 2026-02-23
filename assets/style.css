@@ -101,7 +101,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -255,9 +255,11 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h6, 
+	#about-me p {
 		width: 100%;
-	}
+		max-width: 600px;
+}
 }
 
 @media all and (max-width: 1000px) {
@@ -353,4 +355,10 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+	outline: 3px solid #1C6474;
+	outline-offset: 2px;
+}
