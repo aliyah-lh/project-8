@@ -362,3 +362,38 @@ textarea:focus {
 	outline: 3px solid #1C6474;
 	outline-offset: 2px;
 }
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+	outline: 3px solid #1C6474;
+	outline-offset: 2px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	padding: 20px;
+	background-size: 60%;
+	filter: invert(1);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+	background-color: #1C6474;
+	transform: scale(1.1);
+}
+
+.carousel-control-prev:active .carousel-control-prev-icon,
+.carousel-control-next:active .carousel-control-next-icon {
+	background-color: #0f3f49;
+	transform: scale(0.95);
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+	outline: 3px solid #1C6474;
+	outline-offset: 4px;
+}
