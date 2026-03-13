@@ -110,6 +110,10 @@ body {
 .nav-pills .nav-link {
     color: #000000;
 }
+
+.visually-hidden {
+    color: black !important;
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
