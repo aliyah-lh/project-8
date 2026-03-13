@@ -101,18 +101,14 @@ body {
 	justify-content: center;
 }
 
-.nav-pills .nav-link {
-	color: #000;               
-	background-color: #F6E7A8; 
-	border-radius: 0;
+.nav-pills .show > .nav-link {
+    color: #ffffff;
+    background-color: #8C8330;
+    border-radius: 0;
 }
 
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-	color: #fff;               
-	background-color: #BEB45A; 
-	border-radius: 0;
+.nav-pills .nav-link {
+    color: #000000;
 }
 .item-column {
 	position: relative;
